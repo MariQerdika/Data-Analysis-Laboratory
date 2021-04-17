@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    padding: 20px 20px 16px 20px;
+}
+nav span {
+    height: 3px;
+    background-color: #2770DE;
+    display: block;
+    margin-bottom: 4px;
+}
+nav .line:first-child {
+    width: 28px;
+}
+nav .line:nth-child(2) {
+    width: 22px;
+    transition: 0.5s;
+    
+}
+nav .line:last-child {
+    width: 18px;
+   height: 3px;
+   transition: 0.5s;
+}
+.nav {
+    cursor: pointer;
+}
+.nav:hover .line:nth-child(2){
+        width: 28px;
+    }
+.nav:hover .line:last-child{
+        width: 28px;
+    }
+    .menuDiv {
+        position: absolute;
+        top: 0;
+        width: 90%;
+        height: 100vh;
+        left: -100%;
+        background: red;
+        transition: .5s;
+    }
+  .show {    
+        
+        left: 0;
+       
+    }
+

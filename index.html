@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <title>Data Analysis Laboratory</title>
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+        <div class="nav" onclick="showDiv()">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <div id="menuDiv" class="menuDiv">
+            <div onclick="hideDiv()"><img src="./assets/images/close.svg"></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Spell Check</a></li>
+                <li><a href="#">Speech Recognition</a></li>
+                <li><a href="#">Text Synthesier</a></li>
+                <li><a href="#">OCR</a></li>
+            </ul>
+        </div>
+        </nav>
+   <a class="logo"><img src="./assets/images/logo.png"> </a>
+        <h1>text</h1>
+        <div>...</div>
+    </header>
+   <script>
+function showDiv() {
+   let element = document.getElementById("menuDiv");
+   element.classList.add("show");
+}
+function hideDiv() {
+   let element = document.getElementById("menuDiv");
+   element.classList.remove("show");
+}
+   </script>
+</body>
+</html>

@@ -110,6 +110,7 @@ h1 {
     font-size: 12px;
     color: #2770DE;
     text-transform: uppercase;
+    
 }
 .header-side--more {
     cursor: pointer;
@@ -125,6 +126,7 @@ h1 {
     border: 1px solid #88aee7;
     border-radius: 15px;
     padding: 10px;
+    color: rgb(39, 112, 222);
 }
 .tabs textarea:focus {
     outline: none;
@@ -146,14 +148,30 @@ footer {
     justify-content: center;
     text-transform: uppercase;
     cursor: pointer;
-    padding-bottom: 30px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 .active-tab {
     border-bottom: 3px solid #2770DE;
 }
+#inputText, #outputText {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #88aee7;
+    outline: none;
+    color:rgb(39, 112, 222);
+    
+}
+::placeholder {
+    color: #88AEE7;
 
-
+}
+#textarea-second {
+    text-align: right;
+}
 
 
 
@@ -269,6 +287,9 @@ section.main {
     display: block !important;
 }
 .tabs textarea {
+    width: 90%;
+}
+#inputText, #outputText {
     width: 90%;
 }
  }

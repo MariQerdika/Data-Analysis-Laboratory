@@ -43,8 +43,8 @@ nav .line:last-child {
     .menuDiv {
         position: absolute;
         top: 0;
-        width: 60vw;
-        height: 80vh;
+        width: 100vw;
+        height: 100vh;
         left: -100%;
         background: rgb(238, 236, 236);
         transition: .5s;
@@ -61,6 +61,7 @@ nav .line:last-child {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    padding-left: 20px;
 }
 .menuDiv-header--title {
     padding-left: 40px;
@@ -85,4 +86,7 @@ nav .line:last-child {
 }
 .menuDiv-li a:hover svg path g {
     fill: rgb(39, 112, 222)  !important;
+}
+.fb {
+    padding-left: 20px;
 }

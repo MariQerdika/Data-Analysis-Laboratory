@@ -5,10 +5,15 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-.menuDiv-header, .menuDiv-li a {
+.menuDiv-header, .menuDiv-li a, .menuDiv-header--title, h1 {
     font-family: 'Montserrat-Medium';
 }
-
+.menuDiv-header, .menuDiv-li a, .menuDiv-header--title, .langPicker, footer {
+    font-family: 'Montserrat-Regular';
+}
+#inputText, #outputText {
+    font-family: 'Montserrat';
+}
 .header {
     display: flex;
 }

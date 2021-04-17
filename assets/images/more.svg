@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.557" height="22.014" viewBox="0 0 21.557 22.014">
+  <g id="fast-forward-double-right-arrows-symbol" transform="translate(-3.999 -8.486)">
+    <g id="_x35__11_" transform="translate(3.999 8.946)" opacity="0">
+      <g id="Group_2155" data-name="Group 2155" transform="translate(0 0)">
+        <path id="Path_5094" data-name="Path 5094" d="M21.025,9.532,12.059.565A1.811,1.811,0,1,0,9.5,3.127l7.685,7.685L9.5,18.5a1.811,1.811,0,1,0,2.561,2.561l8.967-8.967A1.809,1.809,0,0,0,21.025,9.532ZM10.244,8.989l-7.119-7.5a1.766,1.766,0,0,0-2.589,0,2,2,0,0,0,0,2.728L6.36,10.353.536,16.492a2,2,0,0,0,0,2.728,1.766,1.766,0,0,0,2.589,0l7.119-7.5A2,2,0,0,0,10.244,8.989Z" transform="translate(0.001 -0.035)" fill="#2770de"/>
+      </g>
+    </g>
+    <circle id="Ellipse_275" data-name="Ellipse 275" cx="2.5" cy="2.5" r="2.5" transform="translate(11.907 8.486)" fill="#2770de"/>
+    <circle id="Ellipse_276" data-name="Ellipse 276" cx="2.5" cy="2.5" r="2.5" transform="translate(11.907 16.486)" fill="#2770de"/>
+    <circle id="Ellipse_277" data-name="Ellipse 277" cx="2.5" cy="2.5" r="2.5" transform="translate(11.907 25.486)" fill="#2770de"/>
+  </g>
+</svg>

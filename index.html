@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header class="header">
+    <section class="main">
+    <section class="leftSide">
+       
         <nav>
         <div class="nav" onclick="showDiv()">
             <span class="line"></span>
@@ -19,6 +21,10 @@
         </div>
         <div id="menuDiv" class="menuDiv">
             <div class="menuDiv-wrapper">
+                <a class="logo" href="index.html">
+                    
+                      <img src="./assets/images/logo.svg">
+                </a>
             <div class="menuDiv-header" onclick="hideDiv()">
                 <img style="cursor: pointer;" src="./assets/images/close.svg">
                 <span class="menuDiv-header--title">Tools</span></div>
@@ -81,11 +87,13 @@
             </a> 
         </div>
     </div>
+    <a href="index.html" class="miniLogo"><img src="./assets/images/logoMini.png"></a>
         </nav>
-   <a class="logo"><img src="./assets/images/logo.png"> </a>
-        <h1>text</h1>
-        <div>...</div>
-    </header>
+   
+    </section>
+   <main> <header class="header"><h1>text converter</h1></header></main>
+</section>
+
    <script>
 function showDiv() {
    let element = document.getElementById("menuDiv");

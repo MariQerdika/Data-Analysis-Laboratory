@@ -8,6 +8,7 @@
 .menuDiv-header, .menuDiv-li a {
     font-family: 'Montserrat-Medium';
 }
+
 .header {
     display: flex;
     padding: 20px 20px 16px 20px;
@@ -33,6 +34,7 @@ nav .line:last-child {
 }
 .nav {
     cursor: pointer;
+    margin-right: 10px;
 }
 .nav:hover .line:nth-child(2){
         width: 28px;
@@ -46,7 +48,7 @@ nav .line:last-child {
         width: 100vw;
         height: 100vh;
         left: -100%;
-        background: rgb(238, 236, 236);
+        background: #fff;
         transition: .5s;
     }
   .show {        
@@ -74,6 +76,7 @@ nav .line:last-child {
     padding: 0 20px;
     font-size: 14px;
     color: #374761;
+    transition: .5s;
 }
 .menuDiv-li a:hover{
     background: #DFE1E5;
@@ -82,11 +85,91 @@ nav .line:last-child {
     margin-right: 40px;
 }
 .menuDiv-li a:hover svg path {
-    fill: rgb(39, 112, 222);
+    fill: rgb(39, 112, 222);  
+      transition: .5s;
 }
-.menuDiv-li a:hover svg path g {
-    fill: rgb(39, 112, 222)  !important;
-}
+
 .fb {
     padding-left: 20px;
 }
+section.leftSide {
+
+    width: calc(100% - 94%);
+
+}
+nav {
+    display: flex;
+}
+main {
+    padding-left: 80px;
+}
+@media (max-width: 1199.98px) { 
+.logo {
+    display: none;
+}
+section.main {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+}
+
+
+
+@media (min-width: 1200px) { 
+    section.leftSide {
+        position: absolute;
+        width: calc(100% - 94%);
+        overflow: hidden;
+        left: 0;
+        height: 100%;
+    }
+    .menuDiv-icon::before {
+        content: "";
+        position: absolute;
+        width: 4px;
+        top: 25%;
+        left: -25px;
+        height: 32px;
+        background: white;
+        border-radius: 4px;
+        transition: .5s;
+        visibility: hidden;
+    }
+
+    .menuDiv-li a {
+        padding: 0 28px;
+        position: relative;
+        height: 70px;
+    }
+    .menuDiv-li a:hover svg path {
+        fill: #fff;
+    }
+    .menuDiv-li a:hover  .menuDiv-icon::before {
+       left: 5px;
+       visibility: visible;
+    }
+    .menuDiv-li a:hover {
+        background: inherit;
+    }
+  
+    .menuDiv {
+        background-color: #2D62ED;
+        width: 82px;
+        left: 0;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .menuDiv-wrapper {
+        padding: 0;
+    }
+    .menuDiv-header {
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+ }

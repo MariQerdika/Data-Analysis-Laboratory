@@ -11,7 +11,6 @@
 
 .header {
     display: flex;
-    padding: 20px 20px 16px 20px;
 }
 nav span.line {
     height: 3px;
@@ -94,7 +93,7 @@ nav .line:last-child {
 }
 section.leftSide {
 
-    width: calc(100% - 94%);
+    width: calc(100% - 83%);
 
 }
 nav {
@@ -116,14 +115,64 @@ h1 {
     cursor: pointer;
     margin-left: 30px;
 }
+.headerRightside {
+    display: flex;
+    width: 100%;
+}
+.tabs textarea {
+    width: 100%;
+    min-height: 400px;
+    border: 1px solid #88aee7;
+    border-radius: 15px;
+    padding: 10px;
+}
+.tabs textarea:focus {
+    outline: none;
+}
+#textarea-first, #textarea-second {
+    flex: 1;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tabs-bar {
+    display: flex;
+}
+.tabs-bar--item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.active-tab {
+    border-bottom: 3px solid #2770DE;
+}
+
+
+
+
+
+
+
+
+
 @media (max-width: 1199.98px) { 
 .logo {
     display: none;
 }
 section.main {
-    display: flex;
+  
     padding: 20px;
-    align-items: center;
+
+}
+.header {
+   
+     padding: 20px 20px 16px 20px;
 }
 }
 
@@ -193,6 +242,33 @@ section.main {
         display: none;
     }
     main {
-        padding-left: 80px;
+        padding-left: 130px;
+        padding-right: 140px;
     }
+    .headerRightside {
+        display: flex;
+        width: 100%;
+        padding: 35px 140px 35px 130px;
+    }
+   #textarea-first, #textarea-second {
+       flex: 1;
+   }
+  
+   #textarea-second .main-section--col {
+    display: flex;
+    justify-content: flex-end;
+   }
+   .tabs-bar {
+    display: none;
+}
+.tabs {
+    display: flex;
+   
+}
+#textarea-second {
+    display: block !important;
+}
+.tabs textarea {
+    width: 90%;
+}
  }

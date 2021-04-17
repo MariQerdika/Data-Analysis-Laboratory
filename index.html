@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,98 +10,122 @@
     <link rel="stylesheet" href="./assets/css/fonts.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header class="header">
-    <section class="leftSide">
-       
-        <nav>
-        <div class="nav" onclick="showDiv()">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-        </div>
-        <div id="menuDiv" class="menuDiv">
-            <div class="menuDiv-wrapper">
-                <a class="logo" href="index.html">
-                    
-                      <img src="./assets/images/logo.svg">
-                </a>
-            <div class="menuDiv-header" onclick="hideDiv()">
-                <img style="cursor: pointer;" src="./assets/images/close.svg">
-                <span class="menuDiv-header--title">Tools</span></div>
-            <ul>
-                <li class="menuDiv-li"><a href="#">
-                    <span class="menuDiv-icon"><svg xmlns="http://www.w3.org/2000/svg" width="23.108" height="27.404" viewBox="0 0 23.108 27.404">
-                        <path id="Path_14941" data-name="Path 14941" d="M205.979,189.252h-1.793a1.019,1.019,0,0,1-1.019-1.019v-9.21c0-.207,0-.468-.015-.644H199.33a.45.45,0,0,0-.135.015,1.934,1.934,0,0,0-.105.8v9.041a1.019,1.019,0,0,1-1.019,1.019h-1.457a6.88,6.88,0,0,1-7.038-6.693v-9.116c0-.446,0-1.8,8.638-10.377a4.142,4.142,0,0,1,5.814-.052h0c3.948,3.78,8.655,8.657,8.655,10.429v9.143A6.538,6.538,0,0,1,205.979,189.252Zm-.773-2.039h.773a4.493,4.493,0,0,0,4.664-4.627v-9.143c-.179-.766-3.233-4.367-8.026-8.956h0a2.089,2.089,0,0,0-2.968.026c-4.84,4.8-7.723,8.2-8.035,9.015v9.031a4.784,4.784,0,0,0,5,4.654h.438v-8.021c0-2.483,1.429-2.853,2.28-2.853h3.9a1.9,1.9,0,0,1,1.4.521,2.862,2.862,0,0,1,.574,2.169Z" transform="translate(-189.574 -161.848)" fill="#9c9ea9"/>
-                      </svg>
-                      </span>
-                    <span>Home</span>
-                </a></li>
-                <li class="menuDiv-li"><a href="#">
-                    <span class="menuDiv-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24.498" height="17.068" viewBox="0 0 24.498 17.068">
-                            <path id="Path_14960" data-name="Path 14960" d="M594.685,1388.671a4.079,4.079,0,0,1-2.932-1.236l-4.074-4.153a.97.97,0,1,1,1.385-1.358l4.073,4.152a2.205,2.205,0,0,0,3.1,0l13.144-13.4a.97.97,0,0,1,1.385,1.359l-13.145,13.4A4.081,4.081,0,0,1,594.685,1388.671Z" transform="translate(-586.972 -1371.953)" fill="#9c9ea9" stroke="#9c9ea9" stroke-width="0.7"/>
-                          </svg>
-                          
-                      
-                      </span>
-                    <span>Spell Check</span>
-                </a></li>
-                <li class="menuDiv-li"><a href="#">
-                    <span class="menuDiv-icon"><svg xmlns="http://www.w3.org/2000/svg" width="21.657" height="30.4" viewBox="0 0 21.657 30.4">
-                        <g id="microphone" transform="translate(-81)">
-                          <path id="Path_14965" data-name="Path 14965" d="M151.5,21.719h.743a6.5,6.5,0,0,0,6.5-6.5V6.559A6.536,6.536,0,0,0,152.24,0H151.5A6.536,6.536,0,0,0,145,6.547v8.675A6.5,6.5,0,0,0,151.5,21.719Zm0-19.863h.743A4.669,4.669,0,0,1,156.847,6h-1.513a.928.928,0,1,0,0,1.856h1.547v2.1h-2.537a.928.928,0,0,0,0,1.856h2.537v2.1h-1.547a.928.928,0,1,0,0,1.856h1.512a4.647,4.647,0,0,1-4.606,4.084H151.5a4.647,4.647,0,0,1-4.606-4.084H148.4a.928.928,0,1,0,0-1.856h-1.547v-2.1h2.537a.928.928,0,0,0,0-1.856h-2.537v-2.1H148.4A.928.928,0,1,0,148.4,6H146.89A4.669,4.669,0,0,1,151.5,1.856Z" transform="translate(-60.04 0)" fill="#9c9ea9"/>
-                          <path id="Path_14966" data-name="Path 14966" d="M102.657,225.928a.928.928,0,1,0-1.856,0,8.972,8.972,0,0,1-17.945,0,.928.928,0,1,0-1.856,0,10.843,10.843,0,0,0,9.9,10.788v2.9H85.888a.928.928,0,0,0,0,1.856H97.769a.928.928,0,1,0,0-1.856H92.757v-2.9A10.843,10.843,0,0,0,102.657,225.928Z" transform="translate(0 -211.078)" fill="#9c9ea9"/>
-                        </g>
-                      </svg>                    
-                      </span>
-                    <span>Speech Recognition</span>
-                </a></li>
-                <li class="menuDiv-li"><a href="#">
-                    <span class="menuDiv-icon"><svg xmlns="http://www.w3.org/2000/svg" width="27.572" height="20.973" viewBox="0 0 27.572 20.973">
-                        <path id="Audio_Wave-595b40b75ba036ed117d54bf" data-name="Audio Wave-595b40b75ba036ed117d54bf" d="M7.048,5.968a1.1,1.1,0,0,0-.982,1.12V25.836a1.1,1.1,0,1,0,2.206,0V7.088a1.1,1.1,0,0,0-1.12-1.12Q7.1,5.965,7.048,5.968Zm13.234,0a1.1,1.1,0,0,0-.982,1.12V25.836a1.1,1.1,0,1,0,2.206,0V7.088a1.1,1.1,0,0,0-1.12-1.12q-.052,0-.1,0ZM3.739,10.931a1.1,1.1,0,0,0-.982,1.12v8.823a1.1,1.1,0,1,0,2.206,0V12.051a1.1,1.1,0,0,0-1.12-1.12Q3.791,10.928,3.739,10.931Zm19.851,0a1.1,1.1,0,0,0-.982,1.12v8.823a1.1,1.1,0,1,0,2.206,0V12.051a1.1,1.1,0,0,0-1.12-1.12Q23.642,10.928,23.59,10.931Zm-13.234.551a1.1,1.1,0,0,0-.982,1.12v7.72a1.1,1.1,0,1,0,2.206,0V12.6a1.1,1.1,0,0,0-1.12-1.12Q10.408,11.48,10.356,11.482Zm6.617,0a1.1,1.1,0,0,0-.982,1.12v7.72a1.1,1.1,0,1,0,2.206,0V12.6a1.1,1.1,0,0,0-1.12-1.12Q17.025,11.48,16.973,11.482ZM.5,14.239a.552.552,0,0,0-.069.017A.551.551,0,0,0,0,14.808v3.309a.551.551,0,1,0,1.1,0V14.808a.551.551,0,0,0-.6-.569Zm13.165,0a1.1,1.1,0,0,0-.982,1.12v2.206a1.1,1.1,0,1,0,2.206,0V15.359a1.1,1.1,0,0,0-1.12-1.12Q13.717,14.237,13.665,14.239Zm13.3,0a.615.615,0,0,0-.5.569v3.309a.551.551,0,1,0,1.1,0V14.808a.551.551,0,0,0-.6-.569Z" transform="translate(0 -5.967)" fill="#9c9ea9"/>
-                      </svg>
-                      
-                      </span>
-                    <span>Text Synthesier</span>
-                </a></li>
-                <li class="menuDiv-li"><a href="#">
-                    <span class="menuDiv-icon">  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path id="Path_1" data-name="Path 1" d="M6,3A3,3,0,1,0,9,6,3,3,0,0,0,6,3ZM6,7.5A1.5,1.5,0,1,1,7.5,6,1.5,1.5,0,0,1,6,7.5ZM21,0H3A3,3,0,0,0,0,3V21a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V3A3,3,0,0,0,21,0ZM3,22.5A1.5,1.5,0,0,1,1.5,21v-.705l5.959-5.336L15,22.5ZM22.5,21A1.5,1.5,0,0,1,21,22.5H17.124L11.6,16.9,18,10.5,22.5,15Zm0-8.154L18,8.25l-7.457,7.583L7.5,12.75l-6,5.5V3A1.5,1.5,0,0,1,3,1.5H21A1.5,1.5,0,0,1,22.5,3Z" fill="#9c9ea9"/>
-                      </svg>
-                      
-                      </span>
-                      
-                      
-                      
-                      
-                      </span>
-                    <span>OCR</span>
-                </a></li>
-            </ul>
-           <a class="fb" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-                <g id="Group_502" data-name="Group 502" transform="translate(-340.011 -390.986)">
-                  <circle id="Ellipse_133" data-name="Ellipse 133" cx="14" cy="14" r="14" transform="translate(340.011 390.986)" fill="#88aee7"/>
-                  <path id="Path_1676" data-name="Path 1676" d="M358.2,404.991H355.8v8.065h-3.565v-8.065h-1.7v-2.849h1.7V400.3a3.232,3.232,0,0,1,3.6-3.383l2.641.011v2.765h-1.916a.7.7,0,0,0-.757.777v1.676h2.717Zm0,0" transform="translate(-0.513)" fill="#f4f7fe"/>
-                </g>
-              </svg>
-            </a> 
-        </div>
-    </div>
-    <a href="index.html" class="miniLogo"><img src="./assets/images/logoMini.png"></a>
-        </nav>
-   
-    </section>
-    <div class="headerRightside">
-        <h1>text converter</h1>
-        <div class="header-side">
-            <div class="langPicker">ENG</div>
-            <span class="header-side--more"><img src="./assets/images/more.svg"></span>
-        </div>
-     </header>
+        <section class="leftSide">
+            <nav>
+                <div class="nav" onclick="showDiv()">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div id="menuDiv" class="menuDiv">
+                    <div class="menuDiv-wrapper">
+                        <a class="logo" href="index.html">
+
+                            <img src="./assets/images/logo.svg">
+                        </a>
+                        <div class="menuDiv-header" onclick="hideDiv()">
+                            <img style="cursor: pointer;" src="./assets/images/close.svg">
+                            <span class="menuDiv-header--title">Tools</span>
+                        </div>
+                        <ul>
+                            <li class="menuDiv-li"><a href="#">
+                                    <span class="menuDiv-icon"><svg xmlns="http://www.w3.org/2000/svg" width="23.108"
+                                            height="27.404" viewBox="0 0 23.108 27.404">
+                                            <path id="Path_14941" data-name="Path 14941"
+                                                d="M205.979,189.252h-1.793a1.019,1.019,0,0,1-1.019-1.019v-9.21c0-.207,0-.468-.015-.644H199.33a.45.45,0,0,0-.135.015,1.934,1.934,0,0,0-.105.8v9.041a1.019,1.019,0,0,1-1.019,1.019h-1.457a6.88,6.88,0,0,1-7.038-6.693v-9.116c0-.446,0-1.8,8.638-10.377a4.142,4.142,0,0,1,5.814-.052h0c3.948,3.78,8.655,8.657,8.655,10.429v9.143A6.538,6.538,0,0,1,205.979,189.252Zm-.773-2.039h.773a4.493,4.493,0,0,0,4.664-4.627v-9.143c-.179-.766-3.233-4.367-8.026-8.956h0a2.089,2.089,0,0,0-2.968.026c-4.84,4.8-7.723,8.2-8.035,9.015v9.031a4.784,4.784,0,0,0,5,4.654h.438v-8.021c0-2.483,1.429-2.853,2.28-2.853h3.9a1.9,1.9,0,0,1,1.4.521,2.862,2.862,0,0,1,.574,2.169Z"
+                                                transform="translate(-189.574 -161.848)" fill="#9c9ea9" />
+                                        </svg>
+                                    </span>
+                                    <span>Home</span>
+                                </a></li>
+                            <li class="menuDiv-li"><a href="#">
+                                    <span class="menuDiv-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24.498" height="17.068"
+                                            viewBox="0 0 24.498 17.068">
+                                            <path id="Path_14960" data-name="Path 14960"
+                                                d="M594.685,1388.671a4.079,4.079,0,0,1-2.932-1.236l-4.074-4.153a.97.97,0,1,1,1.385-1.358l4.073,4.152a2.205,2.205,0,0,0,3.1,0l13.144-13.4a.97.97,0,0,1,1.385,1.359l-13.145,13.4A4.081,4.081,0,0,1,594.685,1388.671Z"
+                                                transform="translate(-586.972 -1371.953)" fill="#9c9ea9"
+                                                stroke="#9c9ea9" stroke-width="0.7" />
+                                        </svg>
+
+
+                                    </span>
+                                    <span>Spell Check</span>
+                                </a></li>
+                            <li class="menuDiv-li"><a href="#">
+                                    <span class="menuDiv-icon"><svg xmlns="http://www.w3.org/2000/svg" width="21.657"
+                                            height="30.4" viewBox="0 0 21.657 30.4">
+                                            <g id="microphone" transform="translate(-81)">
+                                                <path id="Path_14965" data-name="Path 14965"
+                                                    d="M151.5,21.719h.743a6.5,6.5,0,0,0,6.5-6.5V6.559A6.536,6.536,0,0,0,152.24,0H151.5A6.536,6.536,0,0,0,145,6.547v8.675A6.5,6.5,0,0,0,151.5,21.719Zm0-19.863h.743A4.669,4.669,0,0,1,156.847,6h-1.513a.928.928,0,1,0,0,1.856h1.547v2.1h-2.537a.928.928,0,0,0,0,1.856h2.537v2.1h-1.547a.928.928,0,1,0,0,1.856h1.512a4.647,4.647,0,0,1-4.606,4.084H151.5a4.647,4.647,0,0,1-4.606-4.084H148.4a.928.928,0,1,0,0-1.856h-1.547v-2.1h2.537a.928.928,0,0,0,0-1.856h-2.537v-2.1H148.4A.928.928,0,1,0,148.4,6H146.89A4.669,4.669,0,0,1,151.5,1.856Z"
+                                                    transform="translate(-60.04 0)" fill="#9c9ea9" />
+                                                <path id="Path_14966" data-name="Path 14966"
+                                                    d="M102.657,225.928a.928.928,0,1,0-1.856,0,8.972,8.972,0,0,1-17.945,0,.928.928,0,1,0-1.856,0,10.843,10.843,0,0,0,9.9,10.788v2.9H85.888a.928.928,0,0,0,0,1.856H97.769a.928.928,0,1,0,0-1.856H92.757v-2.9A10.843,10.843,0,0,0,102.657,225.928Z"
+                                                    transform="translate(0 -211.078)" fill="#9c9ea9" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <span>Speech Recognition</span>
+                                </a></li>
+                            <li class="menuDiv-li"><a href="#">
+                                    <span class="menuDiv-icon"><svg xmlns="http://www.w3.org/2000/svg" width="27.572"
+                                            height="20.973" viewBox="0 0 27.572 20.973">
+                                            <path id="Audio_Wave-595b40b75ba036ed117d54bf"
+                                                data-name="Audio Wave-595b40b75ba036ed117d54bf"
+                                                d="M7.048,5.968a1.1,1.1,0,0,0-.982,1.12V25.836a1.1,1.1,0,1,0,2.206,0V7.088a1.1,1.1,0,0,0-1.12-1.12Q7.1,5.965,7.048,5.968Zm13.234,0a1.1,1.1,0,0,0-.982,1.12V25.836a1.1,1.1,0,1,0,2.206,0V7.088a1.1,1.1,0,0,0-1.12-1.12q-.052,0-.1,0ZM3.739,10.931a1.1,1.1,0,0,0-.982,1.12v8.823a1.1,1.1,0,1,0,2.206,0V12.051a1.1,1.1,0,0,0-1.12-1.12Q3.791,10.928,3.739,10.931Zm19.851,0a1.1,1.1,0,0,0-.982,1.12v8.823a1.1,1.1,0,1,0,2.206,0V12.051a1.1,1.1,0,0,0-1.12-1.12Q23.642,10.928,23.59,10.931Zm-13.234.551a1.1,1.1,0,0,0-.982,1.12v7.72a1.1,1.1,0,1,0,2.206,0V12.6a1.1,1.1,0,0,0-1.12-1.12Q10.408,11.48,10.356,11.482Zm6.617,0a1.1,1.1,0,0,0-.982,1.12v7.72a1.1,1.1,0,1,0,2.206,0V12.6a1.1,1.1,0,0,0-1.12-1.12Q17.025,11.48,16.973,11.482ZM.5,14.239a.552.552,0,0,0-.069.017A.551.551,0,0,0,0,14.808v3.309a.551.551,0,1,0,1.1,0V14.808a.551.551,0,0,0-.6-.569Zm13.165,0a1.1,1.1,0,0,0-.982,1.12v2.206a1.1,1.1,0,1,0,2.206,0V15.359a1.1,1.1,0,0,0-1.12-1.12Q13.717,14.237,13.665,14.239Zm13.3,0a.615.615,0,0,0-.5.569v3.309a.551.551,0,1,0,1.1,0V14.808a.551.551,0,0,0-.6-.569Z"
+                                                transform="translate(0 -5.967)" fill="#9c9ea9" />
+                                        </svg>
+
+                                    </span>
+                                    <span>Text Synthesier</span>
+                                </a></li>
+                            <li class="menuDiv-li"><a href="#">
+                                    <span class="menuDiv-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
+                                            <path id="Path_1" data-name="Path 1"
+                                                d="M6,3A3,3,0,1,0,9,6,3,3,0,0,0,6,3ZM6,7.5A1.5,1.5,0,1,1,7.5,6,1.5,1.5,0,0,1,6,7.5ZM21,0H3A3,3,0,0,0,0,3V21a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V3A3,3,0,0,0,21,0ZM3,22.5A1.5,1.5,0,0,1,1.5,21v-.705l5.959-5.336L15,22.5ZM22.5,21A1.5,1.5,0,0,1,21,22.5H17.124L11.6,16.9,18,10.5,22.5,15Zm0-8.154L18,8.25l-7.457,7.583L7.5,12.75l-6,5.5V3A1.5,1.5,0,0,1,3,1.5H21A1.5,1.5,0,0,1,22.5,3Z"
+                                                fill="#9c9ea9" />
+                                        </svg>
+
+                                    </span>
+
+
+
+
+                                    </span>
+                                    <span>OCR</span>
+                                </a></li>
+                        </ul>
+                        <a class="fb" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                viewBox="0 0 28 28">
+                                <g id="Group_502" data-name="Group 502" transform="translate(-340.011 -390.986)">
+                                    <circle id="Ellipse_133" data-name="Ellipse 133" cx="14" cy="14" r="14"
+                                        transform="translate(340.011 390.986)" fill="#88aee7" />
+                                    <path id="Path_1676" data-name="Path 1676"
+                                        d="M358.2,404.991H355.8v8.065h-3.565v-8.065h-1.7v-2.849h1.7V400.3a3.232,3.232,0,0,1,3.6-3.383l2.641.011v2.765h-1.916a.7.7,0,0,0-.757.777v1.676h2.717Zm0,0"
+                                        transform="translate(-0.513)" fill="#f4f7fe" />
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <a href="index.html" class="miniLogo"><img src="./assets/images/logoMini.png"></a>
+            </nav>
+
+        </section>
+        <div class="headerRightside">
+            <h1>text converter</h1>
+            <div class="header-side">
+                <div class="langPicker">ENG</div>
+                <span class="header-side--more"><img src="./assets/images/more.svg"></span>
+            </div>
+    </header>
     </div>
     <section class="main">
-    <!-- <section class="leftSide">
+        <!-- <section class="leftSide">
        
         <nav>
         <div class="nav" onclick="showDiv()">
@@ -180,66 +205,70 @@
         </nav>
    
     </section> -->
-   <main> 
-    <section class="main-section">
-       
-       
+        <main>
+            <section class="main-section">
+
+
+            </section>
+            <div id="tabs" class="tabs">
+                <div class="tabs-bar">
+                    <div class="tabs-bar--item w3-button tablink active-tab" onclick="openCity(event,'textarea-first')">
+                        Input Font </div>
+                    <div class="tabs-bar--item w3-button tablink" onclick="openCity(event,'textarea-second')">Output
+                        Font</div>
+                </div>
+
+                <div id="textarea-first" class="w3-container w3-border city">
+                    <input type="text" id="inputText" name="fname" placeholder="Type input font name">
+                    <div class="main-section--col">
+                        <textarea id="w3review" name="w3review"></textarea>
+                    </div>
+                </div>
+
+                <div id="textarea-second" class="w3-container w3-border city" style="display:none">
+                    <input type="text" id="outputText" name="fname" placeholder="Type output font name">
+                    <div class="main-section--col">
+                        <textarea id="w3review" name="w3review" placeholder="ff"></textarea>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </main>
     </section>
-    <div id="tabs" class="tabs">
-        <div class="tabs-bar">
-          <div class="tabs-bar--item w3-button tablink active-tab" onclick="openCity(event,'textarea-first')">Input Font </div>
-          <div class="tabs-bar--item w3-button tablink" onclick="openCity(event,'textarea-second')">Output Font</div>      
-        </div>
-        
-        <div id="textarea-first" class="w3-container w3-border city">
-            <input type="text" id="inputText" name="fname" placeholder="Type input font name">
-            <div class="main-section--col">
-                <textarea id="w3review" name="w3review" ></textarea>
-            </div>
-        </div>
-      
-        <div id="textarea-second" class="w3-container w3-border city" style="display:none">
-            <input type="text" id="outputText" name="fname" placeholder="Type output font name">
-            <div class="main-section--col">
-                <textarea id="w3review" name="w3review" placeholder="ff"></textarea>
-            </div>
-        </div>
-      
-      
-      </div>
-      
-</main>
-</section>
-<footer><p>© 2021 - Data Analysis Laboratory
- 
-    </p>
-</footer>
+    <footer>
+        <p>© 2021 - Data Analysis Laboratory
 
-   <script>
-    //    menu
-function showDiv() {
-   let element = document.getElementById("menuDiv");
-   element.classList.add("show");
-}
-function hideDiv() {
-   let element = document.getElementById("menuDiv");
-   element.classList.remove("show");
-}
+        </p>
+    </footer>
 
-// Tabs
-function openCity(evt, cityName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active-tab", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active-tab";
-}
-   </script>
+    <script>
+        //    menu
+        function showDiv() {
+            let element = document.getElementById("menuDiv");
+            element.classList.add("show");
+        }
+        function hideDiv() {
+            let element = document.getElementById("menuDiv");
+            element.classList.remove("show");
+        }
+
+        // Tabs
+        function openCity(evt, cityName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active-tab", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active-tab";
+        }
+    </script>
 </body>
+
 </html>

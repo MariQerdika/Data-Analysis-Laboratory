@@ -5,10 +5,15 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-.menuDiv-header, .menuDiv-li a, .menuDiv-header--title, h1 {
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.menuDiv-header, .menuDiv-li a, .menuDiv-header--title, h1,.langPicker  {
     font-family: 'Montserrat-Medium';
 }
-.menuDiv-header, .menuDiv-li a, .menuDiv-header--title, .langPicker, footer {
+.menuDiv-header, .menuDiv-li a, .menuDiv-header--title,  footer p {
     font-family: 'Montserrat-Regular';
 }
 #inputText, #outputText {
@@ -147,6 +152,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: auto;
+    padding-bottom: 45px; 
+}
+footer p {
+    font-size: 18px;
+    color: #707070;
 }
 .tabs-bar {
     display: flex;
@@ -181,7 +192,32 @@ footer {
 #textarea-second {
     text-align: right;
 }
+.langPicker li{
+    font-size: 12px;
+    color: #3B3D46;
+    padding: 2px;
+    cursor: pointer;
+}
+.langPicker li:hover {
+    background-color: #C2D7F7;
+    transition: .5s;
+}
+.langPicker ul {
+width: 30px;
+height: 20px;
+overflow:hidden;
 
+}
+.langPicker {
+    width: 30px;
+height: 20px;
+
+}
+.langPicker:hover ul {
+
+    overflow: visible;
+    
+    }
 
 
 
@@ -195,14 +231,14 @@ footer {
 section.main {
   
     padding: 20px;
-
 }
 .header {
-   
-     padding: 20px 20px 16px 20px;
+     padding: 20px 20px 25px 20px;
+}
+main {
+    padding: 0 20px
 }
 }
-
 
 
 @media (min-width: 1200px) { 
@@ -253,6 +289,7 @@ section.main {
         background-color: #2D62ED;
         width: 82px;
         left: 0;
+        overflow: hidden;
     }
     .logo {
         display: flex;
@@ -290,16 +327,19 @@ section.main {
 }
 .tabs {
     display: flex;
-   
+   background-image: url(../images/arrow.png);
+   background-repeat: no-repeat;
+   background-position: center 3%;
 }
+
 #textarea-second {
     display: block !important;
 }
 .tabs textarea {
-    width: 90%;
+    width: 93%;
 }
 #inputText, #outputText {
-    width: 90%;
+    width: 92%;
 }
 .menuDiv {
     height: 100vh;

@@ -15,7 +15,7 @@ body {
 .menuDiv-header, .menuDiv-li a, .menuDiv-header--title, h1,.langPicker  {
     font-family: 'Montserrat-Medium';
 }
-.menuDiv-header, .menuDiv-li a, .menuDiv-header--title,  footer p {
+.menuDiv-header, .menuDiv-li a, .menuDiv-header--title,  footer p, .tabs textarea  {
     font-family: 'Montserrat-Regular';
 }
 #inputText, #outputText {

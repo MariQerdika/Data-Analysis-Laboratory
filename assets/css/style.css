@@ -9,7 +9,9 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    transition: .5s;
 }
+
 .menuDiv-header, .menuDiv-li a, .menuDiv-header--title, h1,.langPicker  {
     font-family: 'Montserrat-Medium';
 }
@@ -102,6 +104,8 @@ box-shadow: 6px 9px 17px -1px rgb(136 136 136 / 78%);
 
 .fb {
     padding-left: 20px;
+    display: block;
+    margin-top: 20px;
 }
 section.leftSide {
 
@@ -219,9 +223,59 @@ height: 20px;
     
     }
 
+input[type='checkbox']{
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+}
+.check {
+    position: relative;
+    display: block;
+    width: 42px;
+    height: 24px;
+    background-color: #F079CC;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in .3s;
+    background-image: url(../images/switcher.png);
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
 
+}
+body.dark, body.dark   .menuDiv{
+    background-color: #493a61;
+}
+body.dark p, body.dark h1, body.dark  .tabs-bar--item, body.dark .menuDiv-li a, body.dark .langPicker li,body.dark .menuDiv-header--title   {
 
+    color: rgb(253, 251, 251);
+}
+input[type='checkbox']:checked ~ .check {
+    background-color:  #614192;
+    background-position: 18px;
+}
+input[type='checkbox']:checked ~ .check .ball {
+    left: 0;
+   
+}
 
+.switcher {
+    display: block;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+.ball {
+
+       width: 18px;
+    height: 18px;
+    background: #fff;
+    display: block;
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    margin: 2px;
+
+}
 
 
 @media (max-width: 1199.98px) { 
@@ -236,7 +290,8 @@ section.main {
      padding: 20px 20px 25px 20px;
 }
 main {
-    padding: 0 20px
+    padding: 0 20px;
+    margin-bottom: 20px;
 }
 }
 
@@ -343,5 +398,8 @@ main {
 }
 .menuDiv {
     height: 100vh;
+}
+.switcher {
+    margin-top: 55px;
 }
  }
